@@ -1,8 +1,5 @@
 ---
 title: "Voronina1"
-  format:
-    md:
-      output-file: README.md
 author: "Voronina Kseniya"
 date: "2024-09-07"
 output: html_document
