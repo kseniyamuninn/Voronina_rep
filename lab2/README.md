@@ -1,9 +1,3 @@
----
-title: "lab2"
-author: "Voronina Kseniya"
-date: "2024-09-21"
-output: html_document
----
 # Отчет по 2 лабораторной работе
 
 ## Установка библиотеки dplyr
