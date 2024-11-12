@@ -1,10 +1,3 @@
----
-title: "lab3"
-author: "Voronina Kseniya"
-date: "2024-11-04"
-output: html_document
----
-
 # План
 
 1.  Установить программный пакет nyclights13
