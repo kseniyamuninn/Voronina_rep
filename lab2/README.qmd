@@ -4,16 +4,21 @@ author: "Voronina Kseniya"
 date: "2024-09-21"
 output: html_document
 ---
-# Отчет по 2 лабораторной работе
+# Анализ встроенного пакета dplyr
 
-## Установка библиотеки dplyr
+## Цель работы
+1. Развить практические навыки использования языка программирования R для обработки данных
+2. Закрепить знания базовых типов данных языка R
+3. Развить практические навыки использования функций обработки данных пакета dplyr – функции select(), filter(), mutate(), arrange(), group_by()
+
+### Установка библиотеки dplyr
 
 ```{r}
 install.packages("dplyr")
 library(dplyr)
 ```
 
-## Количество строк в датафрейме
+### Количество строк в датафрейме
 
 ```{r}
 starwars
@@ -22,25 +27,25 @@ starwars
 ```{r}
 starwars %>% nrow()
 ```
-## Количество столбцов в датафрейме
+### Количество столбцов в датафрейме
 
 ```{r}
 starwars %>% ncol()
 
 ```
 
-## Примерный вид датафрейма
+### Примерный вид датафрейма
 
 ```{r}
 starwars %>% glimpse()
 ```
-## Уникальные расы персонажей в датафрейме
+### Уникальные расы персонажей в датафрейме
 
 ```{r}
 length(unique(starwars$species))  
 
 ```
-## Самый высокий персонаж
+### Самый высокий персонаж
 
 ```{r}
 starwars %>% arrange(desc(height)) %>% slice_head(n = 1)
@@ -84,4 +89,3 @@ popular_eye_color
 average_name_length <- starwars %>% mutate(name_length = nchar(name)) %>% group_by(species) %>%   summarize(avg_length = mean(name_length, na.rm = TRUE))  
 average_name_length
 ```
-
