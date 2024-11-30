@@ -1,10 +1,3 @@
----
-title: "lab1"
-author: "Voronina Kseniya"
-date: "2024-09-07"
-output: html_document
----
-
 # Введение в R
 
 ## Цель работы
