@@ -1,10 +1,3 @@
----
-title: "Voronina1(1)"
-author: "Voronina Kseniya"
-date: "2024-09-21"
-output: html_document
----
-
 ## Работа с функциями на языке програмирования Python
 
 ### Определение функции
