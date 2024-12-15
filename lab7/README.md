@@ -1,9 +1,3 @@
----
-title: "Untitled"
-format: html
-editor: visual
----
-
 # Анализ данных сетевого трафика при помощи библиотеки Arrow
 
 ## Цель работы
