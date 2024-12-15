@@ -11,7 +11,7 @@
 
 1. Программное обеспечение Windows 10
 2. Rstudio Desktop и библиотека Dplyr
-3. Интерпретатор яз/*ыка R 4.1
+3. Интерпретатор языка R 4.1
 4. Сервис Yandex DataLens
 5. Apache Arrow
 
