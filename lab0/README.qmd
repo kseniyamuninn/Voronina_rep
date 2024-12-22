@@ -1,8 +1,9 @@
 ---
-title: "Voronina1(1)"
-author: "Voronina Kseniya"
-date: "2024-09-21"
-output: html_document
+title: "Разработка отчета в Quarto"
+author: "ksyunvorona@yandex.ru"
+format: 
+  md:
+    output-file: README.md
 ---
 
 ## Работа с функциями на языке програмирования Python
